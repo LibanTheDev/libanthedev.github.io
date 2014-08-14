@@ -1,16 +1,44 @@
 <head>
 
 
+
+
+
+
+<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- This following line is needed in case of using the default easing option or when using another
+ one rather than "linear" or "swing". You can also add the full jQuery UI instead of this file if you prefer -->
+<script src="vendors/jquery.easings.min.js"></script>
+
+
+<!-- This following line needed in the case of using the plugin option `scrollOverflow:true` -->
+<script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+
+<script type="text/javascript" src="jquery.fullPage.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+    $('#fullpage').fullpage();
+});
+</script>
+
+
 <link rel = "stylesheet" href = "Styles/testing_css.css"
 <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="styles/animate.css">
 
 
 
 <title>libanthedev</title>
 
-<h1> Liban Mohamed </h1>
+<h1 class = "animated flipInY"> 
+Liban Mohamed 
+</h1>
 
 
 
@@ -26,6 +54,9 @@
 </script>
 </head>
 <body>
+
+
+
 
 <?php echo $CONTENT; ?>
 <div class="container">
@@ -47,6 +78,7 @@
 			</div>
 		</footer>
 	</div>
+
 
 
 
