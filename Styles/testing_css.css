@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	background: url("http://cinemagraphcollection.com/cinemagraphs/cab-window-429.gif") no-repeat center fixed;
+	background: url("http://i.imgur.com/bIsb4gu.gif"); no-repeat center fixed;
 	background-size:cover;
 	text-align: center;
 }
@@ -11,7 +11,7 @@ body {
 h1  {
 	font-family: 'Covered By Your Grace', cursive;
 
-	color: White;
+	color: black;
 	font-size: 96px;
 	
 }
@@ -69,7 +69,8 @@ h2, h3, p {
 }
 
 footer {
-	margin: 60px 0px;
+	margin: 10px 0px;
+
 }
 
 footer h2 {
@@ -79,8 +80,10 @@ footer h2 {
 footer a {
 	opacity: 0.5;
 	transition: opacity 0.15s ease-in-out;
+
 }
 
 footer a:hover {
-	opacity: 1;
+	opacity: 10;
 }
+
