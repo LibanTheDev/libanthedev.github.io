@@ -4548,7 +4548,8 @@ a.list-group-item.active > .badge,
   padding: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  
+
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4567,6 +4568,7 @@ a.list-group-item.active > .badge,
 }
 .jumbotron .container {
   max-width: 100%;
+
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
