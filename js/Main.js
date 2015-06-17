@@ -1,4 +1,4 @@
 $('#lastFmWidget').lastfmNowPlaying({
-	apiKey: 'YOUR-API-KEY',
-	members: ['YOUR-LASTFM-USERNAME']
+	apiKey: 'e008530e77039cf6d99a20c92621c4fb',
+	members: ['libanthedev']
 });
