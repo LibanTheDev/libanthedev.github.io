@@ -236,11 +236,11 @@
 			opacity: 1;
             text-shadow: 1px 1px 0px #000;
         }
-#header #firstNameGreatest: hover {
+ #firstNameGreatest: hover {
 	
 	color:black;
 }
-#header #lastNameEver: hover{
+ #lastNameEver: hover{
 	color:black;
 }
         #header p2 {
