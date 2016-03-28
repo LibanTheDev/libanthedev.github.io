@@ -401,7 +401,15 @@
 				#header nav a span {
 					display: none;
 				}
-
+			#mobile-developer:hover{
+				color:red;
+			}
+			#web-developer:hover{
+				color:red;
+			}
+			#music-producer:hover{
+				color:red;
+			}
 /* Footer */
 
 	#footer {
