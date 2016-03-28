@@ -237,7 +237,7 @@
             text-shadow: 1px 1px 0px #000;
         }
 #header h1:hover{
-	color:blue;
+	color:red;
 }
         #header p2 {
             font-size: 1.25em;
@@ -404,7 +404,7 @@
 			#mobile-developer:hover{
 				color:red;
 			}
-			#web-developer:hover{
+			#web-designer:hover{
 				color:red;
 			}
 			#music-producer:hover{
