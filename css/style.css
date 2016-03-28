@@ -9,7 +9,7 @@
 /* Basic */
 
 	body, input, select, textarea {
-		color: black;
+		color: white;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
@@ -365,7 +365,7 @@
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 1px white;
+					border: solid 1px black;
 					display: block;
 					font-size: 1.75em;
 					height: 2.5em;
