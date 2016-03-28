@@ -237,7 +237,7 @@
             text-shadow: 1px 1px 0px #000;
         }
 #header h1:hover{
-	color:red;
+	color:blue;
 }
         #header p2 {
             font-size: 1.25em;
