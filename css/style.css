@@ -236,13 +236,7 @@
 			opacity: 1;
             text-shadow: 1px 1px 0px #000;
         }
- #firstNameGreatest: hover {
-	
-	color:black;
-}
- #lastNameEver: hover{
-	color:black;
-}
+
         #header p2 {
             font-size: 1.25em;
             opacity: 1;
@@ -414,6 +408,12 @@
 			#music-producer:hover{
 				color:black;
 			}
+			 #firstNameGreatest:hover {
+				color:black;
+}
+ #lastNameEver:hover{
+	color:black;
+}
 /* Footer */
 
 	#footer {
