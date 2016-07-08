@@ -1,4 +1,5 @@
-(function() {
+$(document).ready(function() {
+
 
 
 
@@ -7,16 +8,14 @@ var html="";
 
 
 
-
-
 $.getJSON('https://wisdomapi.herokuapp.com/v1/random?callback=?', function(data){
-	console.log(data);
+	
 	html+='<h2>Inspirational Quotes for Entrepreneurs</h2> <h1>'+data.content+'</h1> <p> -'+data.author.name+', '+data.author.company+'</p>';
-	$quoteMachine.html(html);
+	$quoteMachine.prepend(html);
 
-	console.log(data);
+	
 
+
+}); 
 
 });
-
- } () );
