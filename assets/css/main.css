@@ -113,10 +113,10 @@
 			background-repeat: repeat,			no-repeat;
 			background-size: 100px 100px, cover;
 			background-position: top left,		center center;
-			-moz-transition: opacity 1.75s ease-out;
-			-webkit-transition: opacity 1.75s ease-out;
-			-ms-transition: opacity 1.75s ease-out;
-			transition: opacity 1.75s ease-out;
+			-moz-transition: opacity 0.3s ease-out;
+			-webkit-transition: opacity 0.3s ease-out;
+			-ms-transition: opacity 0.3s ease-out;
+			transition: opacity 0.3s ease-out;
 		}
 
 		body.is-loading:after {
