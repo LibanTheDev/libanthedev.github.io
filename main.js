@@ -1,3 +1,5 @@
+(function() {
+
 
 
 var $quoteMachine = $('.quote-machine');
@@ -17,4 +19,4 @@ $.getJSON('https://wisdomapi.herokuapp.com/v1/random?callback=?', function(data)
 
 });
 
- 
+ } () );
